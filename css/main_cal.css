@@ -1,0 +1,90 @@
+html{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header{
+    background-image: url("../img/background/header2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    height: 60;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header_title{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: black;
+}
+
+.header_hands{
+    font-size: 50px;
+    color: black;
+}
+
+.header_user{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    position: absolute;
+    right: 50px;
+    color: black;
+}
+
+.header_login{
+    font-size: 50px;
+    position: absolute;
+    right: 0.1%;
+}
+
+.header_work{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    position: absolute;
+    left: 20%;
+    top: 45px;
+}
+
+.header_cal{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    position: absolute;
+    left: 45%;
+    top: 45px;
+}
+
+.header_about{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    position: absolute;
+    right: 20%;
+    top: 45px;
+}
+
+
+.main_part{
+    background-image: url("../img/background/The-realities-of-natural-resource-development-feature.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+
+
+/*
+font-family: 'Merriweather', serif;
+font-family: 'PT Sans Caption', sans-serif;
+<i class="far fa-handshake"></i>
+<i class="fa fa-sign-in" aria-hidden="true"></i>
+<p align=center><a href="table1.html" target="_blank">Table 1</a></p>
+*/

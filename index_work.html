@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ИС угольного предприятия</title>
+    
+    <!-- Нормализация стилей -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+    
+    <!-- Свои стили -->
+    <link rel="stylesheet" href="css/main_work.css">
+    
+    <!-- Веб шрифты -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Иконка на вкладке -->
+    <link rel="shortcut icon" type="image/x-icon" href="/img/icon/inx960x640.jpg">
+    
+    <style>
+        a {
+            color: black; /* Цвет обычной ссылки */
+            text-decoration: none; /* Отменяем подчеркивание у ссылки */
+        }
+        a:visited {
+            color: black; /* Цвет посещенной ссылки */
+        } 
+        a:hover {
+            color: gray; /* Цвет ссылки при наведении на нее курсора мыши */
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Шапка -->
+    <div class="header">
+        <div class="header_hands">
+        <i class="fa fa-handshake-o" aria-hidden="true"></i>
+        </div>
+        <div class="header_title">Угольное<br>предприятие</div>
+        <div class="header_work"><a href="index_work.html"><p>Мои задачи</p></a></div>
+        <div class="header_cal"><a href="index_cal.html"><p>Календарь</p></a></div>
+        <div class="header_about"><a href="index.html"><p><nobr>О компании</nobr></p></a></div>
+        <div class="header_user">
+            Здравствуйте, Гость! <?php echo ".$_GET['username']."; ?>
+            <?php
+            echo $_POST['username'];
+            echo $_REQUEST['username'];
+            ?>
+            <?php
+            $username = htmlspecialchars($_POST['username']);
+            $to  = htmlspecialchars($_POST['to']);
+
+            echo  $username;
+            ?>
+        </div>
+        <div class="header_login">
+        <a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    
+  
+    
+    <!-- Основа -->
+    <div class="main_part">
+        <div class="main_part_container">
+            <div class="row">
+                <div class="col">
+                    <div class="main_work_img"><img src="img/imgs/7Ajt1X6kRv8.png"></div>
+                    <div class="main_work_title">Задача 1</div>
+                    <div class="main_work_text">Тестовый текст задачи 1. "Балансовые запасы подсчитаны до глубины 1500 метров, что в среднем соответствует абсолютной отметке в 1300 метров. Исключение составляет Южно-Каменский участок № 2, запасы которого подсчитаны до отметки – 2300 метров."</div>
+                </div>
+                <div class="col">
+                    <div class="main_work_img"><img src="img/imgs/7Ajt1X6kRv8.png"></div>
+                    <div class="main_work_title">Задача 2</div>
+                    <div class="main_work_text">Тестовый текст задачи 2. "Горно-геологические и гидрогеологические условия залегания пластов в основном благоприятные. По действующему шахтному фонду Восточного Донбасса запасы, целесообразные к отработке, составляют около 200 млн. тонн."</div>
+                </div>
+                <div class="col">
+                    <div class="main_work_img"><img src="img/imgs/7Ajt1X6kRv8.png"></div>
+                    <div class="main_work_title">Задача 3</div>
+                    <div class="main_work_text">Тестовый текст задачи 3. "Большая часть запасов угля представлена запасами антрацита – лучшего в мире угля по калорийности. Доля антрацита в разведанных запасах угля составляет более 90 процентов, что является очень большим количеством."</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+            
+    
+    
+    
+    
+    
+    
+</body>
+</html>
